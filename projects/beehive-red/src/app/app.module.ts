@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LibBeehiveUISharedModule } from 'projects/lib-beehive-ui-shared/src/public-api';
+import { LibBeehiveUISharedModule } from "lib-beehive-ui-shared";
+
 
 @NgModule({
   declarations: [

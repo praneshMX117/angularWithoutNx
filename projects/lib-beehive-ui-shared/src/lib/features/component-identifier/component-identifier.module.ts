@@ -8,6 +8,7 @@ import { ComponentIdentifierComponent } from './component-identifier.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:[ ComponentIdentifierComponent ]
 })
 export class ComponentIdentifierModule { }

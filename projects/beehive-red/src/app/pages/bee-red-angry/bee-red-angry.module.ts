@@ -1,20 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BeeRedHappyRoutingModule } from './bee-red-happy-routing.module';
-import { BeeRedHappyComponent } from './bee-red-happy.component';
+import { BeeRedAngryRoutingModule } from './bee-red-angry-routing.module';
+import { BeeRedAngryComponent } from './bee-red-angry.component';
 import { LibBeehiveUISharedModule } from 'projects/lib-beehive-ui-shared/src/public-api';
-
-
 
 @NgModule({
   declarations: [
-    BeeRedHappyComponent
+    BeeRedAngryComponent
   ],
   imports: [
     CommonModule,
-    BeeRedHappyRoutingModule,
+    BeeRedAngryRoutingModule,
     LibBeehiveUISharedModule
   ]
 })
-export class BeeRedHappyModule { }
+export class BeeRedAngryModule { }
